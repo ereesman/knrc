@@ -5,10 +5,6 @@ int c, count, x, y;
 int a[100];
 
 int main() {
-
-  for (x = 0; x <= 100; x++) {
-    a[x] = 0;
-  }
   
   while ((c = getchar()) != EOF) {
     
