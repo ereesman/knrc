@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int c;
 int count;
 int a[25]; // magic number, we assume 25 character words to be the max
 
 void getWordCountsByLength() {
+  int c;
   while ((c = getchar()) != EOF) {
     if (c != '\n' && c != ' ' && c != '\t') {
       count++;
